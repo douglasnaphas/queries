@@ -6,6 +6,7 @@ Q=$(cat <<QUERY
   "query": "query {
               viewer {
                 login
+                email
               }
             }"
 }
