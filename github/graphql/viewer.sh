@@ -3,8 +3,11 @@
 
 Q=$(cat <<QUERY
 {
-  "query": "query { viewer { login }
-}"
+  "query": "query {
+              viewer {
+                login
+              }
+            }"
 }
 QUERY
 )
